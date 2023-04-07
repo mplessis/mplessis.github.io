@@ -1,0 +1,406 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="icon" type="image/png" href="assets/img/favicon.ico">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <title>Marc Plessis</title>
+        <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+        <meta name="viewport" content="width=device-width" />
+
+        <link href="assets/css/bootstrap.css" rel="stylesheet" />
+        <link href="assets/css/landing-page.css" rel="stylesheet"/>
+        <link href="http://vjs.zencdn.net/6.6.3/video-js.css" rel="stylesheet">
+        <script src="http://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
+
+        <!--     Fonts and icons     -->
+        <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400,300' rel='stylesheet' type='text/css'>
+        <link href="assets/css/pe-icon-7-stroke.css" rel="stylesheet" />
+        <script src="http://vjs.zencdn.net/6.6.3/video.js"></script>
+    </head>
+    <body class="landing-page landing-page1">
+        <nav class="navbar navbar-transparent navbar-top" role="navigation">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button id="menu-toggle" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar bar1"></span>
+                    <span class="icon-bar bar2"></span>
+                    <span class="icon-bar bar3"></span>
+                    </button>
+                    <a href="http://blog.kopigi.fr">
+                        <div class="logo-container">
+                            <div class="logo">
+                                <img src="assets/img/new_logo.png" alt="Creative Tim Logo">
+                            </div>
+                            <div class="brand">
+                                Marc Plessis
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="example" >
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="http://twitter.com/mplessis" target="_blank">
+                            <i class="fa fa-twitter"></i>
+                            Twitter
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/mplessis" target="_blank">
+                            <i class="fa fa-github"></i>
+                            Github
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+        </nav>
+        <div class="wrapper">
+            <div class="parallax filter-gradient blue" data-color="blue">
+                <div class="parallax-background">
+                    <img class="parallax-background-image" src="assets/img/template/bg3.jpg">
+                </div>
+                <div class= "container">
+                    <div class="row">
+                        <div class="col-md-5 hidden-xs">
+                            <div class="parallax-image">
+                                <img class="phone" src="assets/img/template/montageprojets.png" style="margin-top: 20px"/>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <!-- Projets -->
+            <div class="section section-gray section-clients">
+                <div class="container text-center">
+                    <h4 class="header-text">PROJETS</h4>
+                    <p>
+                        Section consacrée à la présentation de certains projets principaux. Ces projets sont pour la plupart développés sur les technologies .NET avec notamment C#, WPF (Windows Presentation Foundation) et UWP (Universal Windows Platform). <br/>N'hésitez pas à consulter les vidéos disponibles.
+                    </p>
+                </div>
+            </div>
+            <div class="section section-demo">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-7">
+                            <div id="description-carousel" class="carousel fade" data-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="item active">
+                                        <video id="dessin-01" class="video-js" controls preload="auto" width="535" height="264"
+                                             data-setup="{}">
+                                            <source src="media/videos/focus_liaisons_boite_derivation.mp4" type='video/mp4'>
+                                            <p class="vjs-no-js">
+                                            To view this video please enable JavaScript, and consider upgrading to a web browser that
+                                            <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+                                            </p>
+                                        </video>
+                                    </div>
+                                    <div class="item">
+                                        <video id="dessin-02" class="video-js" controls preload="auto" width="535" height="264"
+                                            data-setup="{}">
+                                           <source src="media/videos/demonstration_implantation_calcul_circuits.mp4" type='video/mp4'>
+                                           <p class="vjs-no-js">
+                                           To view this video please enable JavaScript, and consider upgrading to a web browser that
+                                           <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+                                           </p>
+                                       </video>
+                                    </div>
+                                    <div class="item">
+                                        <video id="dessin-02" class="video-js" controls preload="auto" width="535" height="264"
+                                            data-setup="{}">
+                                           <source src="media/videos/generation_plan_tableau.mp4" type='video/mp4'>
+                                           <p class="vjs-no-js">
+                                           To view this video please enable JavaScript, and consider upgrading to a web browser that
+                                           <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+                                           </p>
+                                       </video>
+                                    </div>
+                                </div>
+                                <ol class="carousel-indicators carousel-indicators-blue">
+                                    <li data-target="#description-carousel" data-slide-to="0" class="active"></li>
+                                    <li data-target="#description-carousel" data-slide-to="1" class=""></li>
+                                    <li data-target="#description-carousel" data-slide-to="2" class=""></li>
+                                </ol>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-md-offset-1">
+                            <h4 class="header-text">PIEUVRE ELECTRIQUE</h4>
+                            <p>
+                                Création d'un outil permettant le dessin d'une implantation électrique de maison, puis la réalisation du dessin des pieuvres électriques, la génération des schémas de câblage des boites de pieuvre et le dessin d'un plan de tableau électrique
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section section-demo">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-7">
+                            <div id="description-carousel" class="carousel fade" data-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="item active">
+                                        <video id="dessin-02" class="video-js" controls preload="auto" width="535" height="264"
+                                            data-setup="{}">
+                                            <source src="media/videos/generation_devis.mp4" type='video/mp4'>
+                                            <p class="vjs-no-js">
+                                            To view this video please enable JavaScript, and consider upgrading to a web browser that
+                                            <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+                                            </p>
+                                        </video>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-md-offset-1">
+                            <h4 class="header-text">GENERATION DEVIS</h4>
+                            <p>
+                                Il s'agit d'une application UWP, permettant la génération automatique de devis, en liaison avec les implantations électriques réalisées avec le logiciel de pieuvres électriques
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section section-demo">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-7">
+                            <div id="description-carousel" class="carousel fade" data-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="item active">
+                                        <video id="dessin-02" class="video-js" controls preload="auto" width="535" height="264"
+                                            data-setup="{}">
+                                            <source src="media/videos/demonstration_dist.mp4" type='video/mp4'>
+                                            <p class="vjs-no-js">
+                                            To view this video please enable JavaScript, and consider upgrading to a web browser that
+                                            <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+                                            </p>
+                                        </video>
+                                    </div>
+                                </div>
+                           </div>
+                        </div>
+                        <div class="col-md-4 col-md-offset-1">
+                            <h4 class="header-text">POC REFONTE JCJV</h4>
+                            <p>
+                                Il s'agissait de proposer une idée d'architecture, pour la refonte du projet Je chiffre et Je vend de Legrand. Avec une partie application Desktop, une synchronisation sur serveur distant et une partie application mobile. Il s'agit donc d'un simple POC développé rapidement pour la démonstration de cet architecture
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Design interfaces -->
+            <div class="section section-gray section-clients">
+                <div class="container text-center">
+                    <h4 class="header-text">DESIGN D'INTERFACES</h4>
+                    <p>
+                        Cette section est un portfolio, non exhautif, d'interfaces réalisées soient pour des projets concrets, soit des POC
+                    </p>
+                </div>
+            </div>
+            <div class="section section-demo">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div id="description-carousel-rec" class="carousel fade" data-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="item active">
+                                        <a href="media/screens/rec/01.png" target="_blank"><img src="media/screens/rec/01.png" alt=""></a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="media/screens/rec/02.png" target="_blank"><img src="media/screens/rec/02.png" alt=""></a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="media/screens/rec/03.png" target="_blank"><img src="media/screens/rec/03.png" alt=""></a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="media/screens/rec/04.png" target="_blank"><img src="media/screens/rec/04.png" alt=""></a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="media/screens/rec/05.png" target="_blank"><img src="media/screens/rec/05.png" alt=""></a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="media/screens/rec/06.png" target="_blank"><img src="media/screens/rec/06.png" alt=""></a>
+                                    </div>
+                                </div>
+                                <ol class="carousel-indicators carousel-indicators-blue">
+                                    <li data-target="#description-carousel-rec" data-slide-to="0" class="active"></li>
+                                    <li data-target="#description-carousel-rec" data-slide-to="1" class=""></li>
+                                    <li data-target="#description-carousel-rec" data-slide-to="2" class=""></li>
+                                    <li data-target="#description-carousel-rec" data-slide-to="3" class=""></li>
+                                    <li data-target="#description-carousel-rec" data-slide-to="4" class=""></li>
+                                    <li data-target="#description-carousel-rec" data-slide-to="5" class=""></li>
+                                </ol>
+                            </div>
+                        </div>
+                        <div class="col-md-5 col-md-offset-1">
+                            <h4 class="header-text">REC</h4>
+                            <p>
+                                    Il s'agit d'une recherche de design d'interface pour une application mobile embarquée sur Raspberry PI
+                                    <br />
+                                    Cette recherche d'interface a débouché sur un POC développé en UWP (Universal Windows Platform) tournant sur un Windows IOT sur le Raspberry PI 3. Le tout connecté à un capteur de mouvement pour détecter l'angle d'inclinaison du volant de la voiture
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section section-demo">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div id="description-carousel-prod" class="carousel fade" data-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="item active">
+                                        <a href="media/screens/prod/01.png" target="_blank"><img src="media/screens/prod/01.png" alt=""></a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="media/screens/prod/02.png" target="_blank"><img src="media/screens/prod/02.png" alt=""></a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="media/screens/prod/04.png" target="_blank"><img src="media/screens/prod/04.png" alt=""></a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="media/screens/prod/05.png" target="_blank"><img src="media/screens/prod/05.png" alt=""></a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="media/screens/prod/06.png" target="_blank"><img src="media/screens/prod/06.png" alt=""></a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="media/screens/prod/07.png" target="_blank"><img src="media/screens/prod/07.png" alt=""></a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="media/screens/prod/08.png" target="_blank"><img src="media/screens/prod/08.png" alt=""></a>
+                                    </div>
+                                </div>
+                                <ol class="carousel-indicators carousel-indicators-blue">
+                                    <li data-target="#description-carousel-prod" data-slide-to="0" class="active"></li>
+                                    <li data-target="#description-carousel-prod" data-slide-to="1" class=""></li>
+                                    <li data-target="#description-carousel-prod" data-slide-to="2" class=""></li>
+                                    <li data-target="#description-carousel-prod" data-slide-to="3" class=""></li>
+                                    <li data-target="#description-carousel-prod" data-slide-to="4" class=""></li>
+                                    <li data-target="#description-carousel-prod" data-slide-to="5" class=""></li>
+                                    <li data-target="#description-carousel-prod" data-slide-to="6" class=""></li>
+                                </ol>
+                            </div>
+                        </div>
+                        <div class="col-md-5 col-md-offset-1">
+                            <h4 class="header-text">GESTION DE PRODUCTION</h4>
+                            <p>
+                                Il s'agit d'une solution de gestion de production (Stocks, commandes fournisseurs, expéditions, réceptions) et planning spécifique au besoin de Stevia. En liaison avec le logiciel de dessin de pieuvre.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section section-demo">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div id="description-carousel-enibox" class="carousel fade" data-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="item active">
+                                        <a href="media/screens/enibox/01.png" target="_blank"><img src="media/screens/enibox/01.png" alt=""></a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="media/screens/enibox/02.png" target="_blank"><img src="media/screens/enibox/02.png" alt=""></a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="media/screens/enibox/03.png" target="_blank"><img src="media/screens/enibox/03.png" alt=""></a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="media/screens/enibox/04.png" target="_blank"><img src="media/screens/enibox/04.png" alt=""></a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="media/screens/enibox/05.png" target="_blank"><img src="media/screens/enibox/05.png" alt=""></a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="media/screens/enibox/06.png" target="_blank"><img src="media/screens/enibox/06.png" alt=""></a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="media/screens/enibox/07.png" target="_blank"><img src="media/screens/enibox/07.png" alt=""></a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="media/screens/enibox/08.png" target="_blank"><img src="media/screens/enibox/08.png" alt=""></a>
+                                    </div>
+                                </div>
+                                <ol class="carousel-indicators carousel-indicators-blue">
+                                    <li data-target="#description-carousel-enibox" data-slide-to="0" class="active"></li>
+                                    <li data-target="#description-carousel-enibox" data-slide-to="1" class=""></li>
+                                    <li data-target="#description-carousel-enibox" data-slide-to="2" class=""></li>
+                                    <li data-target="#description-carousel-enibox" data-slide-to="3" class=""></li>
+                                    <li data-target="#description-carousel-enibox" data-slide-to="4" class=""></li>
+                                    <li data-target="#description-carousel-enibox" data-slide-to="5" class=""></li>
+                                    <li data-target="#description-carousel-enibox" data-slide-to="6" class=""></li>
+                                    <li data-target="#description-carousel-enibox" data-slide-to="7" class=""></li>
+                                </ol>
+                            </div>
+                        </div>
+                        <div class="col-md-5 col-md-offset-1">
+                            <h4 class="header-text">Enibox</h4>
+                            <p>
+                                Il s'agit d'un projet web développé en python, initialement prévu pour fonctionner sur Raspberry PI mais finalement porté sur un serveur web centralisé. Il permet d'estimer la consommation électrique et en eau d'un logement, à partir de l'étude thermique demandé par la norme RT2012.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Github -->
+            <div class="section section-no-padding">
+                <div class="parallax filter-gradient blue" data-color="blue">
+                    <div class="parallax-background">
+                        <img class ="parallax-background-image" src="assets/img/template/bg3.jpg"/>
+                    </div>
+                    <div class="info">
+                        <i class="fa fa-github" style="font-size: 48px;"></i>
+                        <h1>Retrouvez également mes projets open source sur github, notamment autour des technologies WPF et UWP</h1>
+                        <a href="https://github.com/mplessis" class="btn btn-neutral btn-lg btn-fill" target="_blank">Github</a>
+                    </div>
+                </div>
+            </div>
+            <footer class="footer">
+                <div class="container">
+                    <nav class="pull-left">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                Home
+                                </a>
+                            </li>
+                            <li>
+                                <a href="blog">
+                                Blog
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://photos.kopigi.fr" target="_blank">
+                                Portfolio
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="social-area pull-right">
+                        <a class="btn btn-social btn-twitter btn-simple" href="http://twitter.com/mplessis" target="_blank">
+                        <i class="fa fa-twitter"></i>
+                        </a>
+                    </div>
+                    <div class="copyright">
+                        &copy; 2018 <a href="http://blog.kopigi.fr">Marc Plessis</a>, coding with fun
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+    </body>
+    <script src="assets/js/jquery-1.10.2.js" type="text/javascript"></script>
+    <script src="assets/js/jquery-ui-1.10.4.custom.min.js" type="text/javascript"></script>
+    <script src="assets/js/bootstrap.js" type="text/javascript"></script>
+    <script src="assets/js/awesome-landing-page.js" type="text/javascript"></script>
+</html>
